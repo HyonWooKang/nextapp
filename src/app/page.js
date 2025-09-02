@@ -1,5 +1,11 @@
 export default function Home() {
-  return <>Hello Nextjs!</>;
+  return (
+    <>
+      <h2>Welcome</h2>
+      <h3>Hello Nextjs!</h3>
+      <img src="/gdc.png" alt="character" width="200" />
+    </>
+  );
 }
 // src/app/page.js => /
 // next.js 13버전부터는 src/app 폴더가 루트 폴더
